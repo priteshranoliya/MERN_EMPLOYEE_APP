@@ -110,7 +110,7 @@ npm install
 
 ```bash
 cd backend
-npm run dev
+npm start
 ```
 
 Server will run on: `http://localhost:5001`
