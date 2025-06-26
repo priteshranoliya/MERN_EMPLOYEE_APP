@@ -1,10 +1,8 @@
+
 ```
 MERN_EMPLOYEE_APP
-├─ .DS_Store
 ├─ README.md
 ├─ backend
-│  ├─ .env
-│  ├─ .env.example
 │  ├─ config
 │  │  └─ db.js
 │  ├─ controllers
