@@ -175,6 +175,8 @@ Frontend will run on: `http://localhost:5173`
 
 ---
 
+> **Note:** The `photo` field is defined in the database for potential employee image uploads but is not implemented in this version, as it was not part of the functional requirements.
+
 ## Validations
 
 ### Client-Side (with SweetAlert2)
