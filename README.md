@@ -199,7 +199,7 @@ Frontend will run on: `http://localhost:5173`
 
 * No login/authentication required (as per assignment)
 * SweetAlert2 used for feedback UI on all major actions
-* 
+
 ---
 
 ## Author
