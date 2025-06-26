@@ -63,7 +63,7 @@ MERN_EMPLOYEE_APP/
 
 ```bash
 git clone https://github.com/<your-username>/MERN_EMPLOYEE_APP.git
-cd mern-employee-app
+cd MERN-EMPLOYEE-APP
 ```
 
 ### 2. Setup MySQL Database
