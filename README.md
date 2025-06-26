@@ -62,7 +62,7 @@ MERN_EMPLOYEE_APP/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/mern-employee-app.git
+git clone https://github.com/<your-username>/MERN_EMPLOYEE_APP.git
 cd mern-employee-app
 ```
 
