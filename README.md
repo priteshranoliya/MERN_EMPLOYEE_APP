@@ -1,10 +1,10 @@
-# 👨‍💻 MERN Stack Employee Management System (with MySQL)
+# MERN Stack Employee Management System (with MySQL)
 
 A full-stack MERN application for managing employees and department-wise statistics. Built using **React + React Query** (frontend), **Node.js + Express** (backend), and **MySQL** (database) without ORM.
 
 ---
 
-## 🚀 Features
+## Features
 
 * List all employees with pagination
 * Choose rows per page (5 / 10 / 20)
@@ -19,7 +19,7 @@ A full-stack MERN application for managing employees and department-wise statist
 
 ---
 
-## 📂 Tech Stack Used
+## Tech Stack Used
 
 | Layer      | Tech Used                                    |
 | ---------- | -------------------------------------------- |
@@ -32,7 +32,7 @@ A full-stack MERN application for managing employees and department-wise statist
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 MERN_EMPLOYEE_APP/
@@ -57,16 +57,16 @@ MERN_EMPLOYEE_APP/
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
-### 📦 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/mern-employee-app.git
 cd mern-employee-app
 ```
 
-### ⚙️ 2. Setup MySQL Database
+### 2. Setup MySQL Database
 
 * Make sure MySQL is running on your system
 * Create a new database: `employee_db`
@@ -78,7 +78,7 @@ USE employee_db;
 SOURCE db/schema.sql;
 ```
 
-### 🦯 3. Configure Environment Variables
+### 3. Configure Environment Variables
 
 Create a `.env` file inside the `backend/` folder like this:
 
@@ -92,7 +92,7 @@ DB_NAME=employee_db
 
 > You can refer to `backend/.env.example` for the correct format
 
-### 📦 4. Install Dependencies
+### 4. Install Dependencies
 
 ```bash
 # Backend
@@ -104,7 +104,7 @@ cd ../frontend
 npm install
 ```
 
-### ▶️ 5. Run the Application
+###  5. Run the Application
 
 **Backend:**
 
@@ -126,7 +126,7 @@ Frontend will run on: `http://localhost:5173`
 
 ---
 
-## 🧰 API Endpoints
+## API Endpoints
 
 ### Employees:
 
@@ -145,16 +145,16 @@ Frontend will run on: `http://localhost:5173`
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 📊 Statistics Page
+### Statistics Page
 ![Statistics](screenshots/statistics-page.png)
 
 ---
 
-## ✅ Validations
+## Validations
 
-### 🔒 Client-Side (with SweetAlert2)
+### Client-Side (with SweetAlert2)
 
 * Name must be at least 3 characters
 * Valid email format
@@ -163,14 +163,14 @@ Frontend will run on: `http://localhost:5173`
 * Valid DOB
 * Department selection required
 
-### 🤞 Server-Side
+### Server-Side
 
 * All rules are enforced on the backend as well
 * Any validation error returns meaningful message via API
 
 ---
 
-## 🔐 Notes
+## Notes
 
 * No login/authentication required (as per assignment)
 * SweetAlert2 used for feedback UI on all major actions
@@ -179,6 +179,6 @@ Frontend will run on: `http://localhost:5173`
 
 ---
 
-## 🙌 Author
+## Author
 
 **Pritesh Ranoliya**
