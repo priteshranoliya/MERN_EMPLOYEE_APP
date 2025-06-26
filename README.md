@@ -161,6 +161,15 @@ Frontend will run on: `http://localhost:5173`
 
 ## Screenshots
 
+### Employee List with Pagination
+![Employee List](screenshots/employee-list.png)
+
+### Add Form 
+![Add/Edit Form](screenshots/add-form.png)
+
+### Edit Form 
+![Add/Edit Form](screenshots/edit-form.png)
+
 ### Statistics Page
 ![Statistics](screenshots/statistics-page.png)
 
