@@ -104,6 +104,20 @@ cd ../frontend
 npm install
 ```
 
+> ⚠️ If you face a dependency conflict error like:
+>
+> ```
+> npm ERR! ERESOLVE could not resolve
+> While resolving: @tailwindcss/vite@4.1.10
+> Found: vite@7.0.0
+> ```
+>
+> Run this instead to bypass the conflict:
+>
+> ```bash
+> npm install --force
+> ```
+
 ###  5. Run the Application
 
 **Backend:**
@@ -182,3 +196,7 @@ Frontend will run on: `http://localhost:5173`
 ## Author
 
 **Pritesh Ranoliya**
+
+
+
+
