@@ -199,9 +199,7 @@ Frontend will run on: `http://localhost:5173`
 
 * No login/authentication required (as per assignment)
 * SweetAlert2 used for feedback UI on all major actions
-* App is responsive and mobile-friendly
-* Easily extensible with login/dashboard if needed
-
+* 
 ---
 
 ## Author
