@@ -144,18 +144,18 @@ Frontend will run on: `http://localhost:5173`
 
 ### Employees:
 
-* `GET /api/employees?page=1`
-* `POST /api/employees`
-* `PUT /api/employees/:id`
-* `DELETE /api/employees/:id`
+* `GET /api/employees?page=1&limit=5` — Get paginated list of employees
+* `POST /api/employees` — Add a new employee
+* `PUT /api/employees/:id` — Update an existing employee
+* `DELETE /api/employees/:id` — Delete an employee
 
 ### Departments:
 
-* `GET /api/employees/departments`
+* `GET /api/departments` — Get list of departments (for dropdown)
 
 ### Statistics:
 
-* `GET /api/stats`
+* `GET /api/stats` — Get all three statistics in one API call
 
 ---
 
